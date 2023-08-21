@@ -1,0 +1,30 @@
+.promptBubble {
+    position: absolute;
+    width: 195px;
+    height: 50px;
+    right: 10px;
+    border-radius: .2rem;
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 8%), 0 3px 6px -4px rgb(0 0 0 / 12%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+    background-color: #fff;
+    font-size: 14px;
+    z-index: 999;
+}
+
+.promptBubble_content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.promptBubble_content > img {
+    padding: 0 10px;
+}
+
+.message-true {
+    color: #01AC3B;
+}
+
+.message-false {
+    color: #ff3122;
+}

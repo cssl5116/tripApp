@@ -32,7 +32,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 .login-wrap{overflow:hidden !important; width:100%; position:relative;}
 .login-main-box{  width:100%; height:520px; position:absolute; top:50%; margin-top:-260px; z-index:3; left:50%; margin-left:-960px;}
 .login-main-box .img-box{display:block; width:1920px;}
-.login-box{ width:350px;position:relative; left:50%; margin-left:145px; z-index:9;padding:30px 0;} 
+.login-box{ width:350px;position:relative; left:50%; margin-left:145px; z-index:9;padding:30px 0;}
 .user-box{height:370px; min-height:370px; padding-bottom:20px; height:auto !important; background:#fff;box-shadow:0px 0px 2px #a6a6a6;}
 .tab{ background:url(../../../img/login/v1/tab-bg.jpg) repeat-x; overflow:hidden; zoom:1;}
 .tab li{ float:left; font-size:16px;color:#666; height:46px; line-height:46px; text-align:center; width:175px; cursor:pointer;}
@@ -108,15 +108,15 @@ font-style: normal;font-weight: normal;line-height: 1;position: absolute;}
 -webkit-animation:flipInX .6s .2s ease both;
 -moz-animation:flipInX .6s .2s ease both;}
 @-webkit-keyframes flipInX{
-0%, 100% {-webkit-transform: translateX(0);}  
-10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-3px);}  
-20%, 40%, 60%, 80% {-webkit-transform: translateX(3px);}  
+0%, 100% {-webkit-transform: translateX(0);}
+10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-3px);}
+20%, 40%, 60%, 80% {-webkit-transform: translateX(3px);}
 
 }
 @-moz-keyframes flipInX{
-0%, 100% {-webkit-transform: translateX(0);}  
-10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-3px);}  
-20%, 40%, 60%, 80% {-webkit-transform: translateX(3px);}  
+0%, 100% {-webkit-transform: translateX(0);}
+10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-3px);}
+20%, 40%, 60%, 80% {-webkit-transform: translateX(3px);}
 }
 
 /*更多账号登录*/
